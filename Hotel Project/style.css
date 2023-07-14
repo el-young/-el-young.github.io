@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+html,body {
+  background-color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+  color: white;
+}
+
+#orange {
+  color: #f7c08a;
+}
+
+.header {
+  display: flex;
+  background-color: #333;
+  justify-content: space-between;
+}
+
+.header > div {
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+  margin: 10px 10px;
+  margin-left: 25%;
+}
+
+.header > nav {
+  display: flex;
+  gap: 5px;
+  margin: 10px 10px;
+  margin-right: 25%;
+}
+
+.header > nav > div > a{
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  margin: 10px 10px;
+}
+
+.header > nav > div:hover {
+  background-color: #444;
+}
+.header > nav > div > a:hover {
+  color: #f7c08a;
+}
+.header > nav > div > a.current {
+  color:#f7c08a;
+}
+
+
+
+.Hotel-bed {
+  display: flex;
+  flex-direction: column;
+  background-image: url("./image_resources/showcase.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  background-position: center center;
+  align-items: center;
+  justify-content: center;
+}
+
+.Hotel-bed > * {
+  margin: 10px 10px;
+}
+
+.Hotel-bed > h1 {
+  font-size: 50px;
+}
+.Hotel-bed > p {
+  font-size: 20px;
+}
+
+.Hotel-bed > a {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #333;
+  text-decoration: none;
+  color: white;
+  padding: 20px 20px;
+  font-size: 20px;
+}
+
+.Hotel-bed > a:hover {
+  background-color: #f7c08a;
+  color: black;
+}
+
+.History {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+.col1 > img{
+ width: 100%;
+ height: 100%;
+}
+.col2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+}
+
+.col2 > * {
+  margin: 20px 20px;
+  text-align: justify-content;
+}
+
+.col2 > p {
+  width: 50%;
+  font-size: 20px;
+}
+
+.col2 > a {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  padding: 20px 20px;
+  font-size: 20px;
+}
+
+.col2 > a:hover {
+  background-color: #f7c08a;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px;
+}
+
+.cards > *{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  color: #333;
+}
+
+.cards i {
+  margin-top: 20px;
+}
+
+.cards p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card2 {
+  background-color: #f7c08a;
+}
+
+footer {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
